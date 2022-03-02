@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'bbeeaa42f2a7afc348c4eda5eaba38c7d0e5caa8',
+    'reference' => '5ea51a7d6d35dbf7a9b3d9c681cf8aefc28ebcc2',
     'name' => 'yiisoft/yii2-app-advanced',
   ),
   'versions' => 
@@ -768,7 +768,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'bbeeaa42f2a7afc348c4eda5eaba38c7d0e5caa8',
+      'reference' => '5ea51a7d6d35dbf7a9b3d9c681cf8aefc28ebcc2',
     ),
     'yiisoft/yii2-bootstrap' => 
     array (
@@ -814,6 +814,15 @@
       array (
       ),
       'reference' => 'd879cb186361fbc6f71a2d994d580b5a071a5642',
+    ),
+    'yiisoft/yii2-mongodb' => 
+    array (
+      'pretty_version' => '2.1.12',
+      'version' => '2.1.12.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4a74369a2b233f2def02579766e1eceadb8964be',
     ),
     'yiisoft/yii2-redis' => 
     array (

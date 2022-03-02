@@ -22,4 +22,9 @@ class ExampleController extends Controller
         halt($cache->get('yii_cache'));*/
     }
 
+    public function actionMongodb()
+    {
+
+    }
+
 }

@@ -39,6 +39,23 @@ return [
             'database' => 0,
         ],
 
+        // queue
+        /*'queue' => [
+            'class' => \yii\queue\redis\Queue::class,
+            'redis' => 'redis', // 连接组件或它的配置
+            'channel' => 'queue', // Queue channel key
+        ],*/
+
+        // mongodb
+        'mongodb' => [
+            'class' => 'yii\mongodb\Connection',
+            'dsn' => 'mongodb://122.114.252.78:27017/test',
+            'options' => [
+                "username" => "admin",
+                "password" => "admin2021abc"
+            ]
+        ],
+
         'request' => [
             'csrfParam' => '_csrf-api',
         ],
@@ -64,7 +81,15 @@ return [
             'enableStrictParsing' => true,
             'showScriptName' => false,
             'rules' => [
-                '<controller>/<action>' => '<controller>/<action>'
+                '<controller>/<action>' => '<controller>/<action>',
+
+                // 调试
+//                'GET <version>/getTestIndex' => '<version>/test/index',
+//                [
+//                    'pattern'  => '<version>/debug/<list:\w+>',
+//                    'route'    => '<version>/test/debug',
+//                    'defaults' => ['list' => true],
+//                ],
             ],
         ],
 
