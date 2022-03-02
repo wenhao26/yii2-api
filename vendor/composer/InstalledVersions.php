@@ -14,12 +14,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'bbeeaa42f2a7afc348c4eda5eaba38c7d0e5caa8',
     'name' => 'yiisoft/yii2-app-advanced',
   ),
   'versions' => 
@@ -776,12 +776,12 @@ private static $installed = array (
     ),
     'yiisoft/yii2-app-advanced' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'bbeeaa42f2a7afc348c4eda5eaba38c7d0e5caa8',
     ),
     'yiisoft/yii2-bootstrap' => 
     array (
@@ -827,6 +827,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'd879cb186361fbc6f71a2d994d580b5a071a5642',
+    ),
+    'yiisoft/yii2-redis' => 
+    array (
+      'pretty_version' => '2.0.17',
+      'version' => '2.0.17.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '222c6a4340fdf5124f7fb101d026d98e48bf940e',
     ),
     'yiisoft/yii2-swiftmailer' => 
     array (
